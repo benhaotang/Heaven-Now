@@ -1,9 +1,3 @@
----
-noteId: "9e5340d035f411ea8b74efabb3b68b30"
-tags: []
-
----
-
 # Heaven Now 代码托管
 Heaven Now 现在是一个开源项目，隶属于DYPro Program Studio，是利用Basic语言编写的，曾计划依凭一个综合的处理终端建立各个操作系统的生态，从2018年7月29日后起由于作者时间原因已经不再是一个积极开发的项目了，但仍会维护，始于2013年    
 ![](HeavenNowCore2019-LinuxEdition/HN2019.png)   
