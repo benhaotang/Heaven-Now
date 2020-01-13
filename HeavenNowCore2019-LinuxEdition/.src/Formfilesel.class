@@ -1,0 +1,30 @@
+' Gambas class file
+
+Public nr As File
+Public n As String
+
+Public Sub formfilesel_Open()
+Me.TopOnly = True
+End
+Public Sub Button1_Click()
+
+  Me.Hide
+
+End
+
+Public Sub Button2_Click()
+  Formfile.TextArea1.Enabled = True
+  Formfile.TextArea1.Clear
+  Formfile.text = "HeavenNow 2019 Core Textwriter (Linux Version)-" & FileChooser1.SelectedPath
+  Formfile.Textbox1.text = FileChooser1.SelectedPath
+  nr = Open FileChooser1.SelectedPath For Read
+  While Not Eof(nr)
+  Line Input #nr, n
+  Formfile.TextArea1.text = Formfile.TextArea1.text & n & "\r"
+  Wend
+  Close #nr
+  Formfile.TextBox1.text = FileChooser1.SelectedPath
+  Me.Hide
+End
+
+

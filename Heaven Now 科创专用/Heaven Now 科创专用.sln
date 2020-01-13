@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Heaven Now 科创专用", "Heaven Now 科创专用\Heaven Now 科创专用.vdproj", "{F9CE9A5E-9DFB-4F8C-9FB6-ED09E14EC09B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9CE9A5E-9DFB-4F8C-9FB6-ED09E14EC09B}.Debug|Default.ActiveCfg = Debug
+		{F9CE9A5E-9DFB-4F8C-9FB6-ED09E14EC09B}.Debug|Default.Build.0 = Debug
+		{F9CE9A5E-9DFB-4F8C-9FB6-ED09E14EC09B}.Release|Default.ActiveCfg = Release
+		{F9CE9A5E-9DFB-4F8C-9FB6-ED09E14EC09B}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

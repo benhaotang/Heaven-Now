@@ -1,0 +1,31 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,92,53)
+  Background = Color.Background
+  Text = ("About Heaven Now Open Souce Project")
+  Icon = Picture["hnwin.ico"]
+  Resizable = False
+  Arrangement = Arrange.Vertical
+  AutoResize = True
+  Spacing = True
+  Margin = True
+  { PictureBox2 PictureBox
+    MoveScaled(-12,-13,35.7143,28.5714)
+    Picture = Picture["HN2019.png"]
+    Stretch = True
+    Alignment = Align.Justify
+  }
+  { TextLabel2 TextLabel
+    MoveScaled(11,7,71,5)
+    Font = Font["+3"]
+    Text = ("Heaven Now Core 2019 (Linux Edition)  Build Pre-Alpha 1804")
+  }
+  { TextLabel1 TextLabel
+    MoveScaled(6,13,81,14)
+  }
+  { Button1 Button
+    MoveScaled(77,47,13,3)
+    Text = ("Get it!")
+  }
+}

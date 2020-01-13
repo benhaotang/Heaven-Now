@@ -1,0 +1,41 @@
+' Gambas class file
+
+Public ti As Float
+Public f As String
+Public n As String
+Public nr As File
+
+
+Public Sub Form_Open()
+  ti = 0
+  ProgressBar1.Value = ti / 15
+  
+  Timer1.start
+End
+
+
+
+Public Sub Timer1_Timer()
+  ti = ti + 1
+  ProgressBar1.Value = ti / 15
+  If ti > 15 Then 
+  Formfile.Show
+  Timer1.stop
+  FMain.Hide
+  
+  Endif
+
+End
+
+
+Public Sub ProgressBar1_MouseDown()
+
+  
+
+End
+
+Public Sub PictureBox1_MouseDown()
+
+  
+
+End

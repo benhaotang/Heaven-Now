@@ -1,0 +1,147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HeavenNowCore2019-LinuxEdition 3.9.2\n"
+"PO-Revision-Date: 2018-12-20 17时05 UTC\n"
+"Last-Translator: benhaotang <benhaotang@BenhaoTANG-Deepin>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "Heaven Now Core 2019 (Linux Edition)"
+msgstr "Heaven Now 核心 2019（Linux版本）"
+
+#: .project:2
+msgid "Heaven Now open source project alpha adaptation"
+msgstr "Heaven Now 开源项目新系统移植测试"
+
+#: FMain.form:11
+msgid "HeavenNow 2019 Core (Linux Version)"
+msgstr "Heaven Now 核心 2019（Linux版本）"
+
+#: FMain.form:29
+msgid "2012-2018"
+msgstr ""
+
+#: Formabhn.form:12
+msgid "About Heaven Now Open Souce Project"
+msgstr "关于HN开源计划"
+
+#: Formabhn.form:30
+msgid "Heaven Now Core 2019 (Linux Edition)  Build Pre-Alpha 1804"
+msgstr ""
+
+#: Formabhn.form:39
+msgid "Get it!"
+msgstr "知道啦！"
+
+#: Formas.form:11
+msgid "Save As"
+msgstr "保存为"
+
+#: Formas.form:20
+msgid "Defalt.txt"
+msgstr ""
+
+#: Formas.form:25 Formfilesel.form:25
+msgid "OK"
+msgstr "好"
+
+#: Formas.form:30 Formfilesel.form:20
+msgid "Cancel"
+msgstr "取消"
+
+#: Formfile.form:30
+msgid "HeavenNow 2019 Core Textwriter (Linux Version)"
+msgstr "Heaven Now 核心文本编译器 2019（Linux版本）"
+
+#: Formfile.form:36
+msgid "开始"
+msgstr ""
+
+#: Formfile.form:39
+msgid "新建"
+msgstr ""
+
+#: Formfile.form:44
+msgid "打开"
+msgstr ""
+
+#: Formfile.form:49
+msgid "保存"
+msgstr ""
+
+#: Formfile.form:54
+msgid "另存为"
+msgstr ""
+
+#: Formfile.form:59
+msgid "退出"
+msgstr ""
+
+#: Formfile.form:65
+msgid "编辑"
+msgstr ""
+
+#: Formfile.form:68
+msgid "撤销"
+msgstr ""
+
+#: Formfile.form:73
+msgid "复制"
+msgstr ""
+
+#: Formfile.form:78
+msgid "剪切"
+msgstr ""
+
+#: Formfile.form:83
+msgid "粘贴"
+msgstr ""
+
+#: Formfile.form:88
+msgid "全选"
+msgstr ""
+
+#: Formfile.form:94
+msgid "高级"
+msgstr ""
+
+#: Formfile.form:97
+msgid "查找"
+msgstr ""
+
+#: Formfile.form:101
+msgid "替换"
+msgstr ""
+
+#: Formfile.form:105
+msgid "查找下一个"
+msgstr ""
+
+#: Formfile.form:109
+msgid "字体"
+msgstr ""
+
+#: Formfile.form:114
+msgid "关于"
+msgstr ""
+
+#: Formfile.form:117
+msgid "发行说明"
+msgstr ""
+
+#: Formfile.form:121
+msgid "about HN Project"
+msgstr "关于HN项目"
+
+#: Formfile.form:125
+msgid "about DYPro Pro. Stu."
+msgstr "关于DYPro"
+
+#: Formfilesel.form:10
+msgid "Open"
+msgstr "打开"
+

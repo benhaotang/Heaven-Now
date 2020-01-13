@@ -1,0 +1,20 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,52,68)
+  Text = ("Open")
+  Icon = Picture["hnwin.ico"]
+  Resizable = False
+  { !FileChooser1 FileChooser
+    MoveScaled(-1,0,53,64)
+    #Public = True
+  }
+  { Button1 Button
+    MoveScaled(0,64,27,4)
+    Text = ("Cancel")
+  }
+  { Button2 Button
+    MoveScaled(27,64,25,4)
+    Text = ("OK")
+  }
+}

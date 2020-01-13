@@ -1,0 +1,23 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+ TextLabel1.Text = "Heaven Now--" & "\r" & "一个开源的开发平台支持核心“&”\r" & 
+ TextLabel1.Text = TextLabel1.text & "在2014年正式登陆Windows平台，2016正式登录安卓平台，而这将是它加入Linux平台的第一步" & "\r"
+ TextLabel1.Text = TextLabel1.text & "来自Heaven Now 项目组，隶属于DYPro Program Studio China(2012-2018)" & "\r"
+ TextLabel1.Text = TextLabel1.text & "联系作者： benhaotang@outlook.com dyproprc@gmail.com" & "\r"
+ TextLabel1.Text = TextLabel1.text & "Copyright Heaven Now Open Source Project(2016-2018), All rights reserved."
+End
+
+Public Sub TextLabel1_MouseDown()
+
+  
+
+End
+
+Public Sub Button1_Click()
+
+  Me.hide
+
+End

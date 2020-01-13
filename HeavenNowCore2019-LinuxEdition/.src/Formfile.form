@@ -1,0 +1,93 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,126,83)
+  Text = ("HeavenNow 2019 Core Textwriter (Linux Version)")
+  Icon = Picture["hnwina.ico"]
+  Resizable = False
+  AutoResize = True
+  { Menu1 Menu
+    Text = ("开始")
+    { new Menu
+      Text = ("新建")
+      Shortcut = "Ctrl+N"
+    }
+    { open Menu
+      Text = ("打开")
+      Shortcut = "Ctrl+O"
+    }
+    { save Menu
+      Text = ("保存")
+      Shortcut = "Ctrl+S"
+    }
+    { as Menu
+      Text = ("另存为")
+      Shortcut = "Ctrl+R"
+    }
+    { close Menu
+      Text = ("退出")
+      Shortcut = "Ctrl+E"
+    }
+  }
+  { menu2 Menu
+    Text = ("编辑")
+    { undo Menu
+      Text = ("撤销")
+      Shortcut = "Ctrl+Z"
+    }
+    { copy Menu
+      Text = ("复制")
+      Shortcut = "Ctrl+C"
+    }
+    { cut Menu
+      Text = ("剪切")
+      Shortcut = "Ctrl+X"
+    }
+    { pa Menu
+      Text = ("粘贴")
+      Shortcut = "Ctrl+V"
+    }
+    { all Menu
+      Text = ("全选")
+      Shortcut = "Ctrl+A"
+    }
+  }
+  { gaoji Menu
+    Text = ("高级")
+    { finds Menu
+      Text = ("查找")
+    }
+    { tihuan Menu
+      Text = ("替换")
+    }
+    { next Menu
+      Text = ("查找下一个")
+    }
+    { fonts Menu
+      Text = ("字体")
+    }
+  }
+  { about Menu
+    Text = ("关于")
+    { rn Menu
+      Text = ("发行说明")
+    }
+    { abhn Menu
+      Text = ("about HN Project")
+    }
+    { abdy Menu
+      Text = ("about DYPro Pro. Stu.")
+    }
+  }
+  { !TextArea1 TextArea
+    MoveScaled(0,0,126,80)
+    #Public = True
+    Text = (" ")
+    Alignment = Align.Left
+    Wrap = True
+  }
+  { !TextBox1 TextBox
+    MoveScaled(58,83,26,3)
+    #Public = True
+  }
+}

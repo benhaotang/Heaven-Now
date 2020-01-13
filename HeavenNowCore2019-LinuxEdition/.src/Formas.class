@@ -1,0 +1,20 @@
+' Gambas class file
+
+Public nr As File
+
+Public Sub Button1_Click()
+ 
+  nr = Open DirChooser1.SelectedPath &/ TextBox1.text For Create
+  Formfilesel.FileChooser1.SelectedPath = DirChooser1.SelectedPath &/ Textbox1.text
+  Write #nr, Formfile.Textarea1.text
+  Close #nr
+  Formfile.Textbox1.text = DirChooser1.SelectedPath &/ Textbox1.text
+  Me.hide
+
+End
+
+Public Sub Button2_Click()
+
+  Me.Hide
+
+End

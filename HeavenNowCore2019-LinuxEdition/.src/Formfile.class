@@ -1,0 +1,106 @@
+' Gambas class file
+
+
+Public nr As File
+Public f As String
+Public n As File
+
+
+Public Sub Form_Open()
+
+   textarea1.enabled = False
+   save.enabled = False
+   Me.Minimized = True
+   TextBox1.Text = " "
+
+End
+
+Public Sub abhn_Click()
+
+  Formabhn.Show
+
+End
+
+Public Sub open_Click()
+
+  Formfilesel.Show
+
+
+End
+
+Public Sub save_Click()
+  nr = Open Formfilesel.FileChooser1.SelectedPath For Write
+  Write #nr, TextArea1.text
+  Close #nr
+End
+
+Public Sub close_Click()
+
+  Quit
+
+End
+
+
+
+
+
+Public Sub new_Click()
+  TextArea1.Enabled = True
+  TextArea1.Clear
+  Me.text = "HeavenNow 2019 Core Textwriter (Linux Version)-New"
+End
+
+Public Sub as_Click()
+
+  Formas.show
+End
+
+Public Sub TextArea1_Change()
+
+   If TextBox1.Text <> " " Then
+  save.enabled = True
+  Endif
+
+End
+
+
+
+
+
+Public Sub copy_Click()
+
+  TextArea1.Copy
+
+End
+
+Public Sub cut_Click()
+
+  TextArea1.Cut
+
+End
+
+Public Sub pa_Click()
+
+  TextArea1.Paste
+
+End
+
+Public Sub all_Click()
+
+  TextArea1.SelectAll
+
+End
+
+
+
+Public Sub undo_Click()
+
+  TextArea1.Undo
+
+End
+
+Public Sub TextArea1_KeyPress()
+
+  
+
+End

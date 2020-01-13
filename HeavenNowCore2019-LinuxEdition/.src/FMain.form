@@ -1,0 +1,31 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,115,66)
+  Text = ("HeavenNow 2019 Core (Linux Version)")
+  Icon = Picture["hnwin.ico"]
+  Picture = Picture["hn.jpg"]
+  Resizable = False
+  AutoResize = True
+  { PictureBox1 PictureBox
+    MoveScaled(0,0,115,66)
+    Picture = Picture["hn.jpg"]
+    Stretch = True
+    AutoResize = True
+  }
+  { Label1 Label
+    MoveScaled(102,48,15,5)
+    Font = Font["+3"]
+    Background = Color.TextBackground
+    Foreground = &H94A7AD&
+    Text = ("2012-2018")
+  }
+  { Timer1 #Timer
+    #MoveScaled(106,53)
+    Enabled = True
+    Delay = 150
+  }
+  { ProgressBar1 ProgressBar
+    MoveScaled(7,61,100,3)
+  }
+}
