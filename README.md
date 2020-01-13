@@ -1,5 +1,12 @@
+---
+noteId: "9e5340d035f411ea8b74efabb3b68b30"
+tags: []
+
+---
+
 # Heaven Now 代码托管
 Heaven Now 现在是一个开源项目，隶属于DYPro Program Studio，是利用Basic语言编写的，曾计划依凭一个综合的处理终端建立各个操作系统的生态，从2018年7月29日后起由于作者时间原因已经不再是一个积极开发的项目了，但仍会维护，始于2013年    
+![](HeavenNowCore2019-LinuxEdition/HN2019.png)
 目前各平台最新版本
 - Windows：2017ProVision [](https://github.com/benhaotang/Heaven-Now/releases/tag/2017)，最后更新于2018年8月2日
   - 版本特色：(**Build 2018437**)
@@ -22,3 +29,4 @@ Heaven Now 现在是一个开源项目，隶属于DYPro Program Studio，是利�
     2. 云同步（已失效）
 
 欢迎各位在之前的版本基础上帮助这个Heaven Now这个软件平台不断前进！
+![](hn.jpg)
