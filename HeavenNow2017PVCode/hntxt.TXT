@@ -1,0 +1,3 @@
+您的应用程序压缩文件已经生成为 'D:\Program Files\Microsoft Visual Studio\VB98\包\hn.CAB' 。
+
+在支持的目录 (D:\Program Files\Microsoft Visual Studio\VB98\包\Support\hn.BAT) 中还有一个批处理文件它将允许您 当您对一些文件进行更改时重新创建压缩文件。
